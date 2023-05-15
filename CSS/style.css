@@ -1,0 +1,169 @@
+*{
+    /* margin: 0; */
+    /* padding: 0; */
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+main{
+    background-color: white;
+    justify-content: center;
+    text-align: center;
+}
+
+header{
+ height: 80px;
+ background-color: white;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ border-bottom: 3px solid rgb(243, 237, 237);
+ border-radius: 12px;
+ font-weight: 300px;
+}
+
+h1, h3{
+    font-weight: 400px solid;
+    padding-bottom: 30px;
+}
+
+p{
+    font-size: 15px;
+    font-style: bold;
+    padding-bottom: 25px;
+}
+
+ul{
+    max-width: 600px;
+    line-height: 1.6;
+    /* text-align: left; */
+    margin: 0 auto 20px auto;
+}
+
+ul a{
+    padding: 0 5px;
+    text-decoration: none;
+    color: blue;
+}
+
+label{
+    padding:0 5px;
+}
+
+#lab{
+    border: none;
+}
+
+nav{
+    display: flex;
+    
+}
+
+.demo-btn{
+    height: 35px;
+    width:130px;
+    border-radius: 6px; 
+    border-style: none;
+    background-color: green;
+    color:white;
+    margin-right: 10px;
+    font-style: bold;
+    cursor: pointer;
+}
+
+.head-btn{
+    height: 35px;
+    width:130px;
+    border-radius: 6px; 
+    border-style: none;
+    background-color: green;
+    color:white;
+    margin-right: 10px;
+    font-style: bold;
+    cursor: pointer;
+}
+.sign-btn{
+    height: 35px;
+    width:130px;
+    border-radius: 8px; 
+    border-color: green;
+    color:green;
+    background-color: white;
+    cursor: pointer;
+}
+
+.head{
+    border: 0px;
+    background-color: whitesmoke;
+    height: 90px;
+    margin: 10px 5px;
+    width: 160px;
+}
+
+.wrapper{
+    background-color: black;
+    color: white;
+    height: auto;
+    text-align: left;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+
+.head-img{
+    max-width: 100%;
+    display: inline-block;
+    height: auto;
+    margin: 0px auto;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+.secure{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.personalise{
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: left;
+    display: inline-block;
+    
+}
+
+.img-left{
+    display: inline-block;
+    margin-left: 20px;
+    padding-top: 35px;
+}
+
+@media screen and (max-width: 700px){
+    main{
+        background-color:rgb(253, 251, 251);
+    }
+
+    .logo{
+        width: 80px;
+    }
+
+    header{
+        font-size: 13px;
+    }
+
+    .head-btn{ 
+        font-size: 10px;
+        width: 80px;
+        height: 32px;
+        border-radius: 6px; 
+    border-style: none;
+    background-color: green;
+    color:white;
+    font-style: bold;
+    cursor: pointer;
+    } 
+    }
+

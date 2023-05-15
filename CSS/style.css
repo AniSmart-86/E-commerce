@@ -46,7 +46,7 @@ ul{
 ul a{
     padding: 0 5px;
     text-decoration: none;
-    color: blue;
+    color: rgb(59, 196, 59);
 }
 
 label{
@@ -67,7 +67,7 @@ nav{
     width:130px;
     border-radius: 6px; 
     border-style: none;
-    background-color: green;
+    background-color: rgb(125, 201, 12);
     color:white;
     margin-right: 10px;
     font-style: bold;
@@ -79,7 +79,7 @@ nav{
     width:130px;
     border-radius: 6px; 
     border-style: none;
-    background-color: green;
+    background-color: rgb(125, 201, 12);;
     color:white;
     margin-right: 10px;
     font-style: bold;
@@ -89,7 +89,7 @@ nav{
     height: 35px;
     width:130px;
     border-radius: 8px; 
-    border-color: green;
+    border-color: rgb(125, 201, 12);;
     color:green;
     background-color: white;
     cursor: pointer;

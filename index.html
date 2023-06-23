@@ -5,116 +5,179 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="./CSS/style.css">
 </head>
 <body>
+
+    <!-- =========== Header Design ========== -->
+
     <header>
-        <div>
-            <img src="./task img/logo.jpg" alt="" width="150px" class="logo">
-        </div>
-        <nav>
-            <ul>
+        <a href="#"><img src="./task img/logo.jpg" alt=""  class="logo"></a>
+            
+            <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="nav-bar">
                 
-            <a href="">Home</a>
-                <label for="selection">Solutions<select name="" id="lab"></select></label>
-                <label for="format">Your works<select name="" id="lab"></select></label>
-                <label for="format">Company<select name="" id="lab"></select></label>
+            <a href="#Home">Home</a>
+
+            <a href="#Services"><select name="" id="lab">
+                <option value="">Services</option>
+            </select></a>
                 
-                <button class="head-btn">Request a Demo ▲</button>
-        
-            </ul>
+            <a href="#Your Works"><select name="" id="lab">
+                <option value="">Your Works</option>
+            </select></a>
+                
+            <a href="#Companys"> <select name="" id="lab">
+                <option value="">Companys</option>
+            </select></a>
+               <a href="https://anismart-86.github.io/Portfolio/">
+                <button class="demo-btn">Request a Demo <i class='bx bx-link-external'></i></button>
+               </a>
+               
                 
         </nav>
     </header>
-    <main>
-        <section>
-            <div>
-<h1>The World's Leading Business <br> Valuation Software</h1>
-<p>Valutico provides the financial services industry and valuations experts with data- <br> 
-driven tools to perform accurate company valuations faster and more accurately than ever before.</p>
 
-    <button class="demo-btn">Request a Demo ▲</button>
-    <button class="sign-btn">Sign up/Login</button>
+    <!-- ============ Home Section Design ============ -->
+        <section class="home" id="Home">
+<div class="content">
+    <h1 class="heading">The World's Leading Business Valuation <br> Software</h1>
+<p>Valutico provides the financial services industry and valuations experts with data-
+driven tools <br> to perform accurate company valuations faster and more accurately than ever before.</p>
+</div>
+<div>
+    <a href="https://anismart-86.github.io/Portfolio/">
+        <button class="demo-btn">Request a Demo <i class='bx bx-link-external'></i></button>
+       </a>
+    <button class="demo-btn">Sign up/Login</button>
+</div>
+<div class="head-img">
+    <img src="./task img/image 4.png" alt="valutico" >
+    </div> 
+        </section>
+    
+    <!-- ========== Services Design =========== -->
 
-<img src="./task img/image 4.png" alt="valutico" class="head-img">
-
-    <h3>Trusted by Hundreds of Financial Firms in 75 Countries</h3>
-    <p>Our team of more than 50 employees is globally distributed and serves both national and international
+<section class="services" id="Services">
+    <div class="box-content">
+    <h2>Trusted by Hundreds of Financial Firms in 75 Countries</h2>
+    <p>Our team of more than 50 employees is globally distributed and serves 
+        both national and international
          clients in over 75 countries.</p>
         </div>
-         <div class="imgs">
-            <div class="row-1">
+    
+         <div class="box-imgs">
+
+            <div class="img-rows">
          <img src="./task img/image 5.png" alt="Allinial global" class="head">
+        </div>
+        <div class="img-rows">
          <img src="./task img/image 5 (1).png" alt="Oaklins" class="head">
+        </div>
+        <div class="img-rows">
          <img src="./task img/image 5 (2).png" alt="Russeel" class="head">
+        </div>
+        <div class="img-rows">
          <img src="./task img/image 5 (3).png" alt="Crowe" class="head">
         </div>
-        <div class="row-2">
+        <div class="img-rows">
             <img src="./task img/image 9.png" alt="BCH" class="head">
+            </div>
+            <div class="img-rows">
             <img src="./task img/image 8.png" alt="Praxity" class="head">
+            </div>
+            <div class="img-rows">
             <img src="./task img/image 7.png" alt="bakertilly" class="head">
+        </div>
+        <div class="img-rows">
             <img src="./task img/image 6 (1).png" alt="standard" class="head">
         </div>
-        <div class="row-3">
+        <div class="img-rows">
             <img src="./task img/image 10.png" alt="panda"class="head">
+            </div>
+            <div class="img-rows">
             <img src="./task img/image 11.png" alt="Global" class="head">
+        </div>
+        <div class="img-rows">
             <img src="./task img/image 12.png" alt="CDN Global" class="head">
+        </div>
+        <div class="img-rows">
             <img src="./task img/image 13.png" alt="Rodl & parter" class="head">
         </div>
         </div>
     </section>
-        <div class="wrapper">
-            <div>
-                <h3>why valutico?</h3>
-                <p>An award-winning fintech providing a range of company valuation solutions, Valutico provides <br>
+
+            <div class="wrapper" id="Your Works">
+            <div class="work">
+                <h2>why valutico?</h2>
+                <p>An award-winning fintech providing a range of company valuation solutions, Valutico provides
                      the financial services industry and valuation experts with data-driven tools.</p>
                     </div>
                      <div class="secure">
                         <div>
-                        <h4>Secure</h4>
+                        <h3>Secure</h3>
                     
                         <p>Private by default, creating a safe space <br> around your projects and your data.</p>
                     </div>
                     <div>
-                        <h4>Reliable</h4>
+                        <h3>Reliable</h3>
                         <p>Created by valuation experts for valuation <br> professionals.</p>
                     </div>
                     <div>
-                        <h4>Dedicated to your success</h4>
+                        <h3>Dedicated to your success</h3>
                         <p>24/7 support and multi-language <br> capabilities to support your  needs.</p>
                     </div>
                      </div>
-        </div>
-        <section>
+                     
+        <!-- ============== Companys Design ============= -->
+
+        <section class="Companys" id="Companys">
             <div class="personalise">
-                <div>
-<h4>Accurate Valuations in Minutes</h4>
-<p>Find the company data you need in seconds, <br> with 3TB of global financial data featuring almost 1 million <br> transactions and over 50,000 thousand comparable peers</p>
+                <div class="valut">
+<h3>Accurate Valuations in Minutes</h3>
+<p>Find the company data you need in seconds, <br> with 3TB of global financial data featuring almost 1 million <br> transactions 
+    and over 50,000 thousand comparable peers</p>
 </div>
+<br>
+<br>
+<br>
+<br>
 <div>
-    <h4>Personalise Your Reports</h4>
-    <p>Save hours transferring results <br> from spreadsheet to slides, 
-        by exporting your <br> results to Powerpoint and Word templates effortlessly.</p>
+    <h3>Personalise Your Reports</h3>
+    <p>Save hours transferring results from spreadsheet to slides, <br> 
+        by exporting your results to Powerpoint and Word templates effortlessly.</p>
     </div>
+    <br>
+<br>
+<br>
+<br>
     <div>
-        <h4>28 Valuation Method Options</h4>
-        <p>From loss-making companies to mature enterprises, <br> 
-            and from startups to SME's, value businesses <br> of any type using multiple valuation methods.</p>
+        <h3>28 Valuation Method Options</h3>
+        <p>From loss-making companies to mature enterprises, <br>
+            and from startups to SME's, 
+            value businesses <br> of any type using multiple valuation methods.</p>
         </div>
+        <br>
+<br>
+<br>
+<br>
         <div>
-        <h4>Fast Access to Premium Data</h4>
-        <p>Access the most highly-trusted global <br> databases of company financial data to locate <br> the figures you need.</p>
+        <h3>Fast Access to Premium Data</h3>
+        <p>Access the most highly-trusted global databases of company <br> financial
+             data to locate the figures you need.</p>
     </div>
+    
 </div>
 <div class="img-left">
-<img src="./task img/image.png" alt="Jotting" width="400px" height="550px">
+    <img src="./task img/image.png" alt="Jotting" width="500px" height="600px">
 </div>
-<div>
-<button class="demo-btn">Request a Demo</button>
+
+<div class="footer-btn">
+    <a href="https://anismart-86.github.io/Portfolio/" class="demo-btn">Request a Demo<i class='bx bx-link-external'></i></a>
 </div>
         </section>
-    </main>
+        <script src="main.js"></script>
 </body>
 </html>
